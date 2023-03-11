@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  background-color: rgba(56, 106, 29, 0.718);
+}
+.main_sebo {
+  background-image: url("sebastian_coffee.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  height: 558px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#header_sebo {
+  background-color: chocolate;
+  color: antiquewhite;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-family: "Julee", cursive;
+  letter-spacing: 3px;
+}
+.header_links a {
+  display: inline-block;
+  background-color: chocolate;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  border-radius: 10px;
+  color: antiquewhite;
+  font-family: "Julee", cursive;
+  letter-spacing: 3px;
+  text-decoration: none;
+  margin: 10px;
+}
+.header_links a:hover {
+  color: chocolate;
+  background-color: antiquewhite;
+}
+.hakkımızda_sebo {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 20px 10px;
+  word-spacing: 5px;
+  font-size: 20px;
+}
+#menu_sebo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+#menu_sebo a {
+  background-color: rgb(238, 131, 55);
+  display: flex;
+  margin-bottom: 20px;
+  width: 160px;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(210, 109, 37, 0.914);
+  padding: 20px 80px;
+  font-family: "Julee", cursive;
+  letter-spacing: 3px;
+  text-shadow: 4px 3px 2px rgb(27, 26, 26);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#kahvaltı {
+  background-image: url(https://cdn.hellovillam.com/HelloVillam/images/w596/2021-12/kas-kahvalti-mekanlari_FSUA6V7BEPYTW92J4APIA7F0ST3XNT.jpg);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+#tatlı {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTURy8SjRZZ-3fr-F81u1jxUT0YL4YAceZR7g&usqp=CAU);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+#soguk_icecek {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnq6iWHk5GUMrfb-MkfRvcZbkoUi60WF9p1A&usqp=CAU);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+#sıcak_icecek {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKzRtks_tGgMOebg7sQQ-gTvX-DLzLPRIcFw&usqp=CAU);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+.formlar_sebo {
+  margin: 10px;
+  text-align: center;
+}
+.calısan_form {
+  background-color: rgb(210, 105, 30);
+  display: inline-block;
+  width: 350px;
+  height: 300px;
+  margin: 5px;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+  font-family: "Julee", cursive;
+  letter-spacing: 3px;
+  border-radius: 10px;
+}
+#intro {
+  resize: none;
+}
+.input_widht {
+  width: 70%;
+}
+.oneri_sikayet_form {
+  background-color: rgb(210, 105, 30);
+  display: inline-block;
+  width: 350px;
+  height: 300px;
+  margin: 5px;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+  font-family: "Julee", cursive;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+.iletisim_sebo a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px 40px;
+}
+.iletisim_sebo {
+  text-align: center;
+}
